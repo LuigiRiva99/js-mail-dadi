@@ -1,0 +1,43 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+.square {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container > p{ 
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
